@@ -81,8 +81,7 @@
         android:layout_height="wrap_content"
         android:text="@string/b_n_ch_a_c_t_i_kho_n"
         tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="512dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="512dp" />
 
     <TextView
         android:id="@+id/clickableText"
@@ -93,7 +92,6 @@
         android:text="@string/ng_k_ngay"
         android:textColor="@android:color/holo_blue_dark"
         tools:layout_editor_absoluteX="250dp"
-        tools:layout_editor_absoluteY="512dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="512dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
