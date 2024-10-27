@@ -43,4 +43,12 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="ng_nh_p_v_i">ĐĂNG NHẬP VỚI</string>
+    <string name="ho_c">hoặc</string>
+    <string name="nh_p_t_n_ng_nh_p">Nhập tên đăng nhập</string>
+    <string name="ng_nh_p">Đăng nhập</string>
+    <string name="qu_n_m_t_kh_u">Quên mật khẩu</string>
+    <string name="b_n_ch_a_c_t_i_kho_n">Bạn chưa có tài khoản?</string>
+    <string name="ng_k_ngay">Đăng ký ngay</string>
+    <string name="todo">TODO</string>
 </resources>

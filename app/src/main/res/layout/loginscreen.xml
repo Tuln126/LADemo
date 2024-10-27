@@ -9,76 +9,91 @@
         android:id="@+id/imageView"
         android:layout_width="545dp"
         android:layout_height="893dp"
+        android:contentDescription="@string/todo"
         app:srcCompat="@drawable/_d_graphic_wallpaper_with_colorful_grainy_gradients"
         tools:layout_editor_absoluteX="-43dp"
-        tools:layout_editor_absoluteY="-75dp" />
+        tools:layout_editor_absoluteY="-75dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="ĐĂNG NHẬP VỚI"
+        android:text="@string/ng_nh_p_v_i"
         tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="84dp" />
+        tools:layout_editor_absoluteY="84dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hoặc"
+        android:text="@string/ho_c"
         tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="227dp" />
+        tools:layout_editor_absoluteY="227dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="260dp"
         android:layout_height="41dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="328dp" />
+        tools:layout_editor_absoluteY="328dp"
+        tools:ignore="LabelFor,MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="260dp"
         android:layout_height="49dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="text"
-        android:text="Nhập tên đăng nhập"
+        android:text="@string/nh_p_t_n_ng_nh_p"
         tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="270dp" />
+        tools:layout_editor_absoluteY="270dp"
+        tools:ignore="LabelFor,MissingConstraints" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Đăng nhập"
+        android:text="@string/ng_nh_p"
         tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="423dp" />
+        tools:layout_editor_absoluteY="423dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quên mật khẩu"
+        android:text="@string/qu_n_m_t_kh_u"
         tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="377dp" />
+        tools:layout_editor_absoluteY="377dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bạn chưa có tài khoản?"
+        android:text="@string/b_n_ch_a_c_t_i_kho_n"
         tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="512dp" />
+        tools:layout_editor_absoluteY="512dp"
+        tools:ignore="MissingConstraints" />
 
-    <CheckedTextView
-        android:id="@+id/checkedTextView"
+    <TextView
+        android:id="@+id/clickableText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Đăng ký ngay"
-        tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="512dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/ng_k_ngay"
+        android:textColor="@android:color/holo_blue_dark"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="512dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
