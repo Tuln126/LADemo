@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="545dp"
+        android:layout_height="893dp"
+        app:srcCompat="@drawable/_d_graphic_wallpaper_with_colorful_grainy_gradients"
+        tools:layout_editor_absoluteX="-43dp"
+        tools:layout_editor_absoluteY="-75dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ĐĂNG NHẬP VỚI"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hoặc"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="260dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nhập tên đăng nhập"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn chưa có tài khoản?"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký ngay"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
