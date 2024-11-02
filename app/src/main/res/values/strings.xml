@@ -51,4 +51,11 @@
     <string name="b_n_ch_a_c_t_i_kho_n">Bạn chưa có tài khoản?</string>
     <string name="ng_k_ngay">Đăng ký ngay</string>
     <string name="todo">TODO</string>
+
+    <string-array name="phep">
+        <item>+</item>
+        <item>-</item>
+        <item>x</item>
+        <item>:</item>
+    </string-array>
 </resources>
