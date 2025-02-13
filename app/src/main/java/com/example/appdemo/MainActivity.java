@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // code menu tại đây nhé
-    // đã set sẵn id
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.my_menu, menu);
